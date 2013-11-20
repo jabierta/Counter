@@ -13,7 +13,7 @@ architecture Behaviour of ECE2213Project is
         component ClkGen is
         	generic(
 			n : integer := 25000;
-           		n1 : integer := 2000
+			n1 : integer := 2000
 		);  
         	port(
 			Clock : in std_logic;
